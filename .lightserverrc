@@ -1,0 +1,17 @@
+{
+  "serve": "build",
+  "servePrefix": "/assets",
+  "port": 4000,
+  "bind": "localhost",
+  "watchexps": [
+    "./src/**.js # npm run build",
+    "./src/*.css # # reloadcss"
+  ],
+  "interval": 500,
+  "delay": 0,
+  "noReload": false,
+  "quiet": false,
+  "open": false,
+  "http2": false,
+  "historyindex": "/index.html"
+}
